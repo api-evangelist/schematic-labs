@@ -1,8 +1,27 @@
 aid: schematic-labs
-name: Schematic Labs *
-description: 'Schematic Labs * is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schematic-labs.png
+name: Schematic Labs
+description: >-
+  Schematic Labs was a San Francisco consumer music startup founded in 2010,
+  best known as the maker of SoundTracking, an "Instagram for songs" mobile app
+  for sharing the music you are listening to. Backed by Google Ventures (GV),
+  Accel Partners, and SoftBank Capital with roughly $5.9M raised, it was
+  acquired by Rhapsody in August 2014 and wound down as a standalone company.
+  Today soundtracking.com redirects to napster.com (Rhapsody's successor brand)
+  and schematiclabs.com is a parked domain. No public API or developer surface
+  was found during enrichment; this profile records the company's place in the
+  GV portfolio graph.
 url: https://raw.githubusercontent.com/api-evangelist/schematic-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: rhapsody
+x-acquired-date: '2014-08'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Music
+- Social
+- Mobile
+- Acquired
+- Defunct
 apis: []
+common:
+- type: DomainSecurity
+  url: security/schematic-labs-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

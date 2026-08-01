@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: probed
+source: dig + TLS/HTTP HEAD probes of the company's historical domains
+note: >-
+  Schematic Labs is a defunct company (acquired by Rhapsody in August 2014).
+  schematiclabs.com now serves a domain-parking lander and soundtracking.com
+  301-redirects to www.napster.com (Rhapsody's successor brand), so this
+  records the posture of the historical domain trail, not an operating
+  provider surface.
+hosts:
+  - host: schematiclabs.com
+    https: true
+    http_status: 200
+    tls_version: TLSv1.3
+    cert_expires: '2027-01-29'
+    hsts: false
+    content: domain-parking lander (JS redirect to /lander)
+  - host: soundtracking.com
+    https: true
+    http_status: 301
+    redirects_to: https://www.napster.com/
+    server: cloudflare
+    tls_version: TLSv1.3
+    cert_expires: '2026-09-29'
+    hsts: false
+domains:
+  - domain: schematiclabs.com
+    dnssec: false
+    caa: []
+    spf: false
+    dmarc: false
+  - domain: soundtracking.com
+    dnssec: false
+    caa: []
+    spf: false
+    dmarc: false
