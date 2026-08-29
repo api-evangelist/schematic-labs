@@ -34,6 +34,9 @@ description: >-
   was found during enrichment; this profile records the company's place in the
   GV portfolio graph.
 url: https://raw.githubusercontent.com/api-evangelist/schematic-labs/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface was found during enrichment; this profile records the company's place in the GV portfolio graph."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
