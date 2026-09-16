@@ -23,32 +23,30 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schematic-labs.png
 name: Schematic Labs
-description: >-
-  Schematic Labs was a San Francisco consumer music startup founded in 2010,
-  best known as the maker of SoundTracking, an "Instagram for songs" mobile app
-  for sharing the music you are listening to. Backed by Google Ventures (GV),
-  Accel Partners, and SoftBank Capital with roughly $5.9M raised, it was
-  acquired by Rhapsody in August 2014 and wound down as a standalone company.
-  Today soundtracking.com redirects to napster.com (Rhapsody's successor brand)
-  and schematiclabs.com is a parked domain. No public API or developer surface
-  was found during enrichment; this profile records the company's place in the
+description: Schematic Labs was a San Francisco consumer music startup founded in 2010, best known as
+  the maker of SoundTracking, an "Instagram for songs" mobile app for sharing the music you are listening
+  to. Backed by Google Ventures (GV), Accel Partners, and SoftBank Capital with roughly $5.9M raised,
+  it was acquired by Rhapsody in August 2014 and wound down as a standalone company. Today soundtracking.com
+  redirects to napster.com (Rhapsody's successor brand) and schematiclabs.com is a parked domain. No public
+  API or developer surface was found during enrichment; this profile records the company's place in the
   GV portfolio graph.
 url: https://raw.githubusercontent.com/api-evangelist/schematic-labs/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-x-api-posture-note: "No public API or developer surface was found during enrichment; this profile records the company's place in the GV portfolio graph."
+x-api-posture-note: No public API or developer surface was found during enrichment; this profile records
+  the company's place in the GV portfolio graph.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: rhapsody
-x-acquired-date: '2014-08'
+x-acquired-date: 2014-08
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Consumer
